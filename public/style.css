@@ -1,0 +1,171 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --heading-color: #222;
+    --body-color: #636363;
+    --accent-color: #2ea6f7;
+    --blue-color: #002261;
+    --gray-color: #e8edf0;
+    --border-color: #dddddd;
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Rubik", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.header-top{
+    background-color: var(--blue-color);
+    color: var(--white);
+    padding-block: 0.5rem !important;
+    padding-inline: 5%;
+}
+.header-bottom {
+    padding-block: 0.8rem !important;
+    padding-inline: 5%;
+}
+
+.header-top {
+    border-bottom: 0.1px solid var(--color-624E88);
+}
+
+.header-top div,
+.header-bottom div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top ul,
+.header-bottom ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+}
+
+.header-top a,
+.header-bottom a {
+    color: var(--color-624E88);
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.header-top a:hover{
+    color: var(--accent-color);
+}
+
+.header-bottom a,
+.phone a {
+    font-weight: 500;
+    font-size: 18px !important;
+}
+
+.header-bottom a.navigation {
+    position: relative;
+    padding-bottom: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.header-bottom a.navigation::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: var(--accent-color);
+    transition:  0.5s ease;
+}
+
+.header-bottom a.navigation:hover {
+    color: var(--accent-color);
+}
+
+.header-bottom a.navigation:hover::before {
+    width: 100%;
+}
+
+.header-bottom .logo img,
+.phone .logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+.header-bottom .logo span,
+.phone .logo span{
+    font-size: 24px;
+    color: var(--heading-color);
+    font-weight: 650;
+    transition: 0.5s ease;
+}
+
+.header-bottom .logo a:hover span{
+    color: var(--accent-color);
+}
+
+.header-bottom .reserve a {
+    color: #fff !important;
+    background-color: var(--accent-color);
+    padding: 9px 20px;
+    border-radius: 40px;
+    transition: 0.5s ease;
+}
+
+.header-bottom .reserve a:hover {
+    background-color: var(--blue-color);
+}
+.header-top .media a{
+    background-color: rgb(71, 95, 141);
+    height: 30px;
+    width: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding-inline: 8px;
+    padding-block: 5px;
+}
+.header-top div ul i.info{
+    margin-right: 10px;
+}
+
+.header-top .media a:hover{
+    background-color: var(--white);
+    color: var(--accent-color);
+}
+.header-top .media a i{
+    height: 1em;
+    width: 1em;
+}
+
+
+@media (max-width:770px) {
+    .header-top{
+        display: none;
+    }
+    .phonehidden{
+        display: none;
+    }
+
+}
+
