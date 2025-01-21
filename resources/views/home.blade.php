@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,8 @@
 
 
     @include('layout.footer')
+
+    <script src="main.js"></script>
 
 </body>
 
