@@ -15,7 +15,13 @@
 <body>
     @include('layout.header')
 
-
+    <section class="home">
+        <div class="container">
+            <h4>Votre santé dentaire, notre priorité.</h4>
+            <h6>Des soins dentaires de qualité pour un sourire éclatant.</h6>
+            <button>Réserver maintenant</button>
+        </div>
+    </section>
 
     @include('layout.footer')
 

@@ -22,8 +22,8 @@
             </ul>
             <ul class="phoneshow">
                 <li>
-                    <button class="showphonebar"><i class="fa-solid fa-bars"></i></button>
-                    <button class="showphonebar"><i class="fa-solid fa-xmark"></i></button>
+                    <button class="showphonebar" onclick="showphonebar()" id="showphonebar"><i class="fa-solid fa-bars"></i></button>
+                    <button class="showphonebar" onclick="hiddenphonebar()" id="hiddenphonebar"><i class="fa-solid fa-xmark"></i></button>
                 </li>
             </ul>
             <ul class="phonehidden">
