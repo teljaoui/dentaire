@@ -41,6 +41,7 @@
         <div>
             <ul>
                 <li><a href="" class="navigation">Accueil <i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="" class="navigation">À propos <i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href="" class="navigation">Services <i class="fa-solid fa-arrow-right"></i></a></li>
                 <li><a href="" class="navigation">Contact <i class="fa-solid fa-arrow-right"></i></a></li>
             </ul>
