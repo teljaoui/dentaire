@@ -25,7 +25,7 @@
         </div>
     </section>
 
-    <section class="home-about my-5">
+    <section class="home-about my-5" id="à-propos">
         <div class="container my-5">
             <div class="row">
                 <div class="col-lg-5 col-sm-6 col-md-6 text-center">
@@ -51,10 +51,22 @@
                     </div>
                     <div class="d-flex my-4">
                         <div class="w-50">
-                            <a href="">Contact</a>
+                            <a href="">Contact<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                              </svg>
+                              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                              </svg>
+                              </a>
                         </div>
                         <div class="w-50">
-                            <a href="" style="background-color:blue;">Réserver</a>
+                            <a href="" style="background-color:blue;">Réserver<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                              </svg>
+                              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                              </svg>
+                              </a>
                         </div>
                     </div>
                 </div>
@@ -62,14 +74,60 @@
         </div>
     </section>
 
-    <section class="home-service my-5 py-5">
+    <section class="home-service my-5 py-5" id="services">
         <div class="container">
             <div class="text-center">
-                <h5 class="title">Services</h5>
-                <p>Choisissez les meilleurs services que nous offrons</p>
+                <h4 class="title">Services</h4>
+                <h6>Choisissez les meilleurs services que nous offrons</h6>
+                <div class="row my-5 py-5">
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services1.png" alt="">
+                            <h5>Contrôle des bactéries</h5>
+                            <p>Prévention et élimination des bactéries pour une santé bucco-dentaire optimale.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services2.png" alt="">
+                            <h5>Obturation</h5>
+                            <p>Restauration des dents endommagées par des caries pour une protection durable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services3.png" alt="">
+                            <h5>Nettoyage</h5>
+                            <p>Élimination de la plaque et du tartre pour une santé bucco-dentaire optimale.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services4.png" alt="">
+                            <h5>Contrôle</h5>
+                            <p>Surveillance régulière pour prévenir et traiter les problèmes dentaires tôt.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services5.png" alt="">
+                            <h5>Extraction</h5>
+                            <p>Retrait d'une dent pour prévenir les infections et soulager la douleur.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="content">
+                            <img src="img/services6.png" alt="">
+                            <h5>Blanchiment</h5>
+                            <p>Éclaircissement des dents pour un sourire plus éclatant et naturel.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        </div>
     </section>
+
 
     @include('layout.footer')
 

@@ -354,11 +354,31 @@ li {
     font-size: 25px;
     color: var(--accent-color);
 }
-.home-service p{
+.home-service h6{
     font-size: 20px;
     font-weight: 600;
     color: var(--heading-color);
-    
+}
+.home-service .content{
+    margin: 30px;
+    box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.home-service .content img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.home-service .content h5{
+    font-size: 20px;
+    font-weight: 660;
+    text-transform: capitalize;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+.home-service .content p{
+    font-size: 16px;
+    color: var(--body-color);
 }
 @media (max-width:1024px) {
     .home-about i {

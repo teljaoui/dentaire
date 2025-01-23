@@ -28,6 +28,7 @@
             </ul>
             <ul class="phonehidden">
                 <li><a href="/" class="navigation">Accueil</a></li>
+                <li><a href="/#à-propos" class="navigation">À propos</a></li>
                 <li><a href="/#services" class="navigation">Services</a></li>
                 <li><a href="/#home-contact" class="navigation">Contact</a></li>
             </ul>
