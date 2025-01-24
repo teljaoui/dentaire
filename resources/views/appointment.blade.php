@@ -27,20 +27,16 @@
         <div class="container py-5 mb-5">
             <div class="header-appointment">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-4">
                         <span class="active">1. <strong>Temps</strong></span>
                         <hr class="active">
                     </div>
-                    <div class="col-3">
-                        <span>2. <strong>Horaires disponibles</strong></span>
+                    <div class="col-4">
+                        <span>2. <strong>Confirmation</strong></span>
                         <hr>
                     </div>
-                    <div class="col-3">
-                        <span>3. <strong>Confirmation</strong></span>
-                        <hr>
-                    </div>
-                    <div class="col-3">
-                        <span>4. <strong>Terminé</strong></span>
+                    <div class="col-4">
+                        <span>3. <strong>Terminé</strong></span>
                         <hr>
                     </div>
                 </div>
@@ -65,6 +61,50 @@
                         <input type="submit" class="submit" value="Suivant">
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="container py-5 mb-5">
+            <div class="header-appointment">
+                <div class="row">
+                    <div class="col-4">
+                        <span>1. <strong>Temps</strong></span>
+                        <hr>
+                    </div>
+                    <div class="col-4">
+                        <span class="active">2. <strong>Confirmation</strong></span>
+                        <hr class="active">
+                    </div>
+                    <div class="col-4">
+                        <span>3. <strong>Terminé</strong></span>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="available my-2">
+                <div class="confirmed">
+                    <p class="">Réservation confirmée pour le "27-01-2025". <br>  Veuillez remplir vos informations ci-dessous pour continuer.</p>
+                    <form action="confirmedpost" method="post">
+                        @csrf
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 my-2">
+                                <label for="" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" name="firstname" required>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 my-2">
+                                <label for="" class="form-label">Nom</label>
+                                <input type="text" class="form-control" name="lastname" required>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 my-2">
+                                <label for="" class="form-label">Numéro de Téléphone</label>
+                                <input type="tel" class="form-control" name="phone_number" required>
+                            </div>
+                            <div class="col-12 my-2 d-flex justify-content-between">
+                                <a href="backconfirmed" class="back">Retour</a>
+                                <button type="submit" class="next">Suivant</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>

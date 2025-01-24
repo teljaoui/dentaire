@@ -524,7 +524,7 @@ footer .media i {
 
 .appointment .header-appointment span {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--body-color);
 }
 
@@ -533,7 +533,7 @@ footer .media i {
 }
 
 .appointment .header-appointment hr {
-    height: 10px;
+    height: 7px;
     background-color: var(--body-color);
     opacity: 1 !important;
 }
@@ -590,7 +590,86 @@ footer .media i {
     border-radius: 50%;
 }
 
+/*avalaible confirmed*/
 
+/*confirmed*/
+.appointment .available .confirmed {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.appointment .available .confirmed label {
+    font-size: 16px;
+    color: var(--blue-color);
+}
+
+.appointment .available .confirmed input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--heading-color);
+}
+
+.appointment .available .confirmed .next,
+.appointment .available .confirmed .back{
+    font-size: 17px;
+    padding: 5px 30px;
+    background-color: var(--blue-color);
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+.appointment .available .confirmed .next:hover,
+.appointment .available .confirmed .back:hover {
+    background-color: var(--accent-color);
+}
+
+.appointment .available .confirmed .back,
+.appointment .back{
+    background-color: var(--body-color);
+    text-decoration: none;
+}
+
+.appointment .available .confirmed .donne {
+    width: 50%;
+    margin-inline: auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.102);
+    text-align: start;
+    padding: 10px;
+}
+
+.appointment .available .confirmed .donne ul li,
+.today ul li {
+    display: flex;
+}
+
+.appointment .available .confirmed .donne ul li span,
+.today ul li span {
+
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blue-color);
+    margin-right: 10px;
+}
+
+.appointment .available .confirmed .donne ul li p,
+.today ul li p {
+
+    font-size: 20px;
+}
+
+.appointment .available .confirmed .donne form span,
+.today .admin-span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--body-color);
+}
+
+
+/*avalaible ends*/
 
 @media (max-width:1024px) {
     .home-about i {
@@ -679,9 +758,7 @@ footer .media i {
     .appointment .header-appointment span {
         font-size: 10px;
     }
-    .appointment .header-appointment strong {
-        display: none;
-    }
+
 }
 
 
@@ -716,7 +793,9 @@ footer .media i {
         padding: 5px 10px;
     }
 
-
+    .appointment .header-appointment strong {
+        display: none;
+    }
     .appointment .header-appointment hr {
         height: 5px;
     }
