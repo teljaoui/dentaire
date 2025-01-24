@@ -478,7 +478,7 @@ footer .media i {
 
     
 .appointment .title {
-    background-image: url("img/background2.jpg");
+    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -100px;
@@ -605,14 +605,12 @@ footer .media i {
         font-size: 10px
     }
 
-    .appointment .title {
-        background-position-y: 0px;
-    }
-
     .appointment .header-appointment span {
         font-size: 12px;
     }
-
+    .appointment .title{
+        background-position-y: 0px !important;
+    }
 }
 @media (max-width:770px) {
     .header-top {
@@ -672,9 +670,7 @@ footer .media i {
         font-size: 10px
     }
 
-    .appointment .title {
-        background-position-y: 100px;
-    }
+   
 
     .appointment .title h5 {
         font-size: 30px;
