@@ -51,10 +51,10 @@
                     </div>
                     <div class="d-flex my-4">
                         <div class="w-50">
-                            <a href="">Contact</a>
+                            <a href="/#home-contact">Contact</a>
                         </div>
                         <div class="w-50">
-                            <a href="" style="background-color:blue;">Réserver</a>
+                            <a href="/appointment" style="background-color:blue;">Réserver</a>
                         </div>
                     </div>
                 </div>

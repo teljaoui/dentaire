@@ -748,9 +748,6 @@ footer .media i {
     .home-about a {
         font-size: 10px
     }
-
-   
-
     .appointment .title h5 {
         font-size: 30px;
     }
@@ -759,6 +756,18 @@ footer .media i {
         font-size: 10px;
     }
 
+    .appointment .available .confirmed .donne {
+        width: 100%;
+    }
+    .appointment .available .confirmed .donne ul li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .today ul li {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 

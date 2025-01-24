@@ -19,9 +19,9 @@
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <h5>Liens</h5>
                 <li><a href="/" class="navigation">Accueil</a></li>
-                <li><a href="" class="navigation">À propos</a>
+                <li><a href="/#à-propos" class="navigation">À propos</a>
                 </li>
-                <li><a href="#services" class="navigation">Nos Service</a>
+                <li><a href="/#services" class="navigation">Nos Service</a>
                 </li>
                 <li><a href="#home-contact" class="navigation">Contactez-nous</a></li>
                 <li><a href="/appointment">Prenez rendez-vous en un clic</a></li>
