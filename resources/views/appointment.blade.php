@@ -67,8 +67,8 @@
             <div class="header-appointment">
                 <div class="row">
                     <div class="col-4">
-                        <span>1. <strong>Temps</strong></span>
-                        <hr>
+                        <span class="active">1. <strong>Temps</strong></span>
+                        <hr class="active">
                     </div>
                     <div class="col-4">
                         <span class="active">2. <strong>Confirmation</strong></span>
@@ -82,7 +82,8 @@
             </div>
             <div class="available my-2">
                 <div class="confirmed">
-                    <p class="">Réservation confirmée pour le "27-01-2025". <br>  Veuillez remplir vos informations ci-dessous pour continuer.</p>
+                    <p class="">Réservation confirmée pour le "27-01-2025". <br> Veuillez remplir vos informations
+                        ci-dessous pour continuer.</p>
                     <form action="confirmedpost" method="post">
                         @csrf
                         <div class="row">
@@ -107,6 +108,59 @@
                 </div>
             </div>
         </div>
+
+        <div class="container py-5 mb-5">
+            <div class="header-appointment">
+                <div class="row">
+                    <div class="col-4">
+                        <span class="active">1. <strong>Temps</strong></span>
+                        <hr class="active">
+                    </div>
+                    <div class="col-4">
+                        <span class="active">3. <strong>Confirmation</strong></span>
+                        <hr class="active">
+                    </div>
+                    <div class="col-4">
+                        <span class="active">4. <strong>Terminé</strong></span>
+                        <hr class="active">
+                    </div>
+                </div>
+            </div>
+            <div class="available my-2">
+                <div class="confirmed text-center">
+                    <p>Vérifiez les informations saisies.</p>
+                    <div class="donne">
+                        <div class="mb-4">
+                            <a href="backdone" class="back"><i class="fa-solid fa-arrow-left"></i> Retour</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Date de la visite:</span>
+                                <p>15-12-2024</p>
+                            </li>
+                            <li>
+                                <span>Prénom:</span>
+                                <p>Teljaoui</p>
+                            </li>
+                            <li>
+                                <span>Nom:</span>
+                                <p>Mohamed</p>
+                            </li>
+                            <li>
+                                <span>Numéro de Téléphone:</span>
+                                <p>0652583234</p>
+                            </li>
+                        </ul>
+                        <form action="donepost" class="text-center pb-4" method="POST">
+                            @csrf
+                            <span>Si les informations sont correctes, cliquez sur le bouton ci-dessous.</span><br><br>
+                            <button type="submit" class="next">Confirmé</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     @include('layout/footer')
