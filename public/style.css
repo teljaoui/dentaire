@@ -476,6 +476,122 @@ footer .media i {
 
 
 
+    
+.appointment .title {
+    background-image: url("img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment .title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 30, 30, 0.7);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+
+.appointment .title h5 {
+    font-size: 50px;
+    z-index: 3;
+    font-weight: 300;
+    margin-top: 100px !important;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.appointment .title svg {
+    z-index: 3;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+.appointment .header-appointment {
+    padding: 50px;
+}
+
+.appointment .header-appointment span {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--body-color);
+}
+
+.appointment .header-appointment span.active {
+    color: var(--blue-color);
+}
+
+.appointment .header-appointment hr {
+    height: 10px;
+    background-color: var(--body-color);
+    opacity: 1 !important;
+}
+
+.appointment .header-appointment hr.active {
+    background-color: var(--blue-color);
+    opacity: 1 !important;
+}
+
+.appointment .content {
+    width: 40% !important;
+    margin-inline: auto;
+}
+
+.appointment .content input:focus {
+    outline: none;
+    box-shadow: none;
+    box-sizing: none;
+    border: 1px solid var(--heading-color);
+}
+
+.appointment .content form p,
+.appointment .available p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.appointment .navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.appointment .submit {
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: var(--blue-color);
+    border: 0px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.appointment .submit:hover {
+    background-color: var(--accent-color);
+}
+
+.appointment .appointment span {
+    border: 1px solid var(--white);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
 @media (max-width:1024px) {
     .home-about i {
         font-size: 15px;
@@ -488,6 +604,15 @@ footer .media i {
     .home-about a {
         font-size: 10px
     }
+
+    .appointment .title {
+        background-position-y: 0px;
+    }
+
+    .appointment .header-appointment span {
+        font-size: 12px;
+    }
+
 }
 @media (max-width:770px) {
     .header-top {
@@ -546,6 +671,21 @@ footer .media i {
     .home-about a {
         font-size: 10px
     }
+
+    .appointment .title {
+        background-position-y: 100px;
+    }
+
+    .appointment .title h5 {
+        font-size: 30px;
+    }
+
+    .appointment .header-appointment span {
+        font-size: 10px;
+    }
+    .appointment .header-appointment strong {
+        display: none;
+    }
 }
 
 
@@ -561,6 +701,30 @@ footer .media i {
     .header-phone ul.media li {
         margin: 10px;
     }
+
+    .appointment .title h5 {
+        font-size: 20px;
+        margin-top: 150px !important;
+    }
+
+    .appointment .content {
+        width: 60% !important;
+    }
+
+    .appointment .content form p {
+        font-size: 12px;
+    }
+
+    .appointment .submit {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+
+    .appointment .header-appointment hr {
+        height: 5px;
+    }
+
 }
 
 

@@ -33,7 +33,7 @@
                 <li><a href="/#home-contact" class="navigation">Contact</a></li>
             </ul>
             <ul class="phonehidden">
-                <li class="reserve"><a href="/appointment">Réserver</a></li>
+                <li class="reserve"><a href="/appointment" target="_blank">Réserver</a></li>
             </ul>
         </div>
     </nav>
