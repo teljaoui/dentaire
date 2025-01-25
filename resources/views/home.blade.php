@@ -20,7 +20,7 @@
             <div class="content">
                 <h4>Votre santé dentaire, notre priorité.</h4>
                 <h6>Des soins dentaires de qualité pour un sourire éclatant.</h6>
-                <a href="/appointment" target="_blank">Réserver maintenant</a>
+                <a href="/appointment">Réserver maintenant</a>
             </div>
         </div>
     </section>
