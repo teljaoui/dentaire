@@ -1,9 +1,9 @@
 <div class="d-flex">
     <button class="toggle-btn" type="button">
-        <i class="lni lni-grid-alt"></i>
+        <img src="../img/logo.png" alt="" width="30">
     </button>
     <div class="sidebar-logo">
-        <a href="#">CodzSword</a>
+        <a href="#">Dentaire</a>
     </div>
 </div>
 <ul class="sidebar-nav">
