@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::get('/appointment' , function(){
     return view('appointment');
 });
+
+
+/*Admin page*/
+
+Route::get('/admin' ,  function(){
+    return view('admin.home');
+});
+
+
+/*Admin page ends*/

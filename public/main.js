@@ -11,5 +11,11 @@ function hiddenphonebar(){
     document.getElementById("hiddenphonebar").style.display="none"
     document.querySelector(".header-phone").style.left='-100%'
     document.querySelector('header').style.boxShadow=""
-
 }
+
+
+const hamBurger = document.querySelector(".toggle-btn");
+
+hamBurger.addEventListener("click", function () {
+  document.querySelector("#sidebar").classList.toggle("expand");
+});
