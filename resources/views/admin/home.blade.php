@@ -21,9 +21,15 @@
         </aside>
         <div class="main p-3">
             <div class="text-center">
-                <h1>
-                    Sidebar Bootstrap 5
-                </h1>
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @elseif(session('error'))
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                @endif
             </div>
         </div>
     </div>

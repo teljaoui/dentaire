@@ -71,8 +71,8 @@
     </li>
 </ul>
 <div class="sidebar-footer">
-    <a href="#" class="sidebar-link">
+    <a href="{{route('logout')}}" class="sidebar-link sidebarlink">
         <i class="lni lni-exit"></i>
-        <span>Logout</span>
+        <span>Se Déconnecter</span>
     </a>
 </div>

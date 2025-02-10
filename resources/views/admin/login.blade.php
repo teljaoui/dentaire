@@ -38,7 +38,7 @@
                                     </h1>
                                 </div>
                                 <div class="login-form">
-                                    <form action="/login_post" method="POST">
+                                    <form action="{{route('login_post')}}" method="POST">
                                         @csrf
                                         <div class="form-details">
                                             <label class="user">
